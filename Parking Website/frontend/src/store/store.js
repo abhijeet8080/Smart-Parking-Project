@@ -9,6 +9,5 @@ export const store = configureStore({
     user :userReducer,
     cart:cartReducer,
     booking:bookingReducer
-    // Add other reducers here if needed
   },
 });

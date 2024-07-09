@@ -25,7 +25,7 @@ const Home = () => {
     <><ToastContainer />
     <MetaData title={"Park Safe"}/>
       {loading?<Loader />:<>
-      <div className='relative bg-black rounded-xl home'>
+      <div className={`relative bg-[${bg}] rounded-xl home`}>
        {/* <video className='inset-0 w-full h-full object-cover filter blur-sm absolute rounded-xl ' autoPlay muted loop  src={bg}></video> */}
         <div className="hero min-h-screen backdrop-blur-sm">
           <div className="hero-content text-center flex items-center justify-center">
